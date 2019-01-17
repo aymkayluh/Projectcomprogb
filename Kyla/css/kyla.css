@@ -1,0 +1,252 @@
+ul {
+    list-style-type: none;
+	margin-top:774.9px;
+	margin-left:35px;
+    overflow: hidden;
+    background-color: white;
+	box-sizing:border-box;
+	width:1347px;
+	height:50px;
+	    cursor: pointer;
+	padding:10px;
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.5);
+	
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    padding: 10px 100px;
+    text-decoration: none;
+	font-family:Century Gothic;
+	font-size:13px;
+	margin-left:10px;
+}
+.box1{
+	background-color: rgba(0,0,0,0);
+	margin-left:250px;
+	width:947px;
+	height:260px;
+	position: absolute;
+	margin-top:-870px;
+}
+
+.box2{
+	background-color: rgba(0,0,0,0);
+	margin-left:190px;
+	width:1047px;
+	margin-top:-584px;
+	height:500px;
+	box-shadow: -1px 9px 46px -1px rgba(0,0,0,0.2);
+	position: absolute;
+}
+
+.back{
+	     padding:10px 19px;	
+         margin-left:-50px;		 
+		 background-size:cover;
+		 background-repeat:no-repeat;
+		 background-image:url("../img/bground.jpg"); /* <lagyan mo ng cover*/
+		 background-attachment:fixed;
+		 min-height:800px;
+         width: 1368px; 
+         box-sizing: border-box;
+		 
+} 
+
+.negname1{
+	 position: absolute;
+	 box-sizing:border-box;
+	 border-color:white;
+      margin-top:50px;
+      margin-left:298px;
+	  width:200px;
+	  font-size:20px;
+}
+
+.dp{
+      position: absolute;
+	  width:230px;
+	  height:210px;
+	  box-sizing:border-box;
+	  border-color:white;
+	  margin-top:10px;
+      margin-left:30px;
+}
+
+
+
+.p1{
+	  position: absolute;
+	  float:left;
+	  width:300px;
+	  height:400px;
+	  margin-left:20px;
+	  margin-top:20px;
+	   border-radius:5px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.p2{
+	  position: absolute;
+	  float:left;
+	  width:300px;
+	  height:400px;
+	  margin-left:380px;
+	  margin-top:20px;
+	   border-radius:5px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.p3{
+	  position: absolute;
+	  float:left;
+	  width:300px;
+	  height:400px;
+	  margin-left:720px;
+	  margin-top:20px;
+	   border-radius:5px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  
+}
+.p4{
+	  position: absolute;
+	  float:left;
+	  width:200px;
+	  height:200px;
+	  margin-left:460px;
+	  margin-top:20px;
+	   border-radius:5px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1104 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 1310px;
+  max-height: 920px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1104 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.snip1104 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+}
+
+figure.snip1104 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1104 h2 {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1104 h2 span {
+  font-weight: 800;
+}
+
+figure.snip1104:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.snip1104 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.snip1104.red {
+  background: #581a14;
+}
+
+figure.snip1104.red h2 {
+  background: #36100c;
+}
+
+
+figure.snip1104:hover img,
+figure.snip1104.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.snip1104:hover h2,
+figure.snip1104.hover h2 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.snip1104:hover:before,
+figure.snip1104.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+.backk{
+	     padding:10px 19px;
+		 margin-top:3px;	
+         margin-left:-50px;		 
+		 background-size:cover;
+		 background-repeat:no-repeat;
+		 background-image:url("1.jpg"); 
+		 background-attachment:fixed;
+		 min-height:800px;
+         width: 1408px; 
+         box-sizing: border-box;
+		 
+} 
+.hp-1{
+	width: 308px; 
+	height: 308px;
+	margin-top:270px;
+}
+
